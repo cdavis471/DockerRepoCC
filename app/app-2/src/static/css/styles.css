@@ -1,0 +1,71 @@
+body {
+    background-color: #619651;
+    margin-top: 50px;
+    font-family: 'Lato';
+}
+
+h2 {
+
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 10px;
+
+}
+
+.item {
+    background-color: #bde3a6;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: transparent;
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
+
+}
+
+.item.completed {
+    text-decoration: line-through;
+}
+
+.toggles {
+    color: black;
+}
+
+.name {
+    padding-top: 3px;
+}
+
+.remove {
+    padding-left: 0;
+}
+
+button:focus {
+    border: 1px solid #333;
+}
+
+div.form {
+
+	display:block;
+	text-align:center;
+
+}
+
+#forbes {
+
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
+
+input[type=submit] {
+
+	text-align: center;
+	background-color: #bde3a6;
+   	border: none;
+  	border-radius: 4px;
+	width: auto;
+	height: auto;
+	margin-bottom: 40px;
+
+}
